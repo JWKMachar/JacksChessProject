@@ -1,0 +1,2 @@
+# JacksChessProject
+chess analytics project
