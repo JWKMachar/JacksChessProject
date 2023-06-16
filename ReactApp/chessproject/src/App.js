@@ -1,7 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+// import Footer from './components/Footer/Footer';
 import Landing from './pages/Landing';
 import Openings from './pages/Openings';
+
 
 function App() {
 
@@ -9,23 +11,27 @@ function App() {
 
   switch (window.location.pathname)
   {
-    case "/":
-      Component = Landing;
-      break
-    case "/Landing":
-      Component = Landing;
-      break
+    // case "/":
+    //   Component = Landing;
+    //   break
+    // case "/Landing":
+    //   Component = Landing;
+    //   break
     case "/Openings":
       Component = Openings;
+      break
+    default:
+        Component = Landing;
       break
   }
 
   return ( 
     <>
-    <body>
       <Navbar />
       <Component />
-    </body>
+
+
+      {/* <Footer /> */}
     </>
   );
 }
