@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-// import Footer from './components/Footer/Footer';
 import Landing from './pages/Landing';
 import Openings from './pages/Openings';
 
