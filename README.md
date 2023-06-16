@@ -1,5 +1,5 @@
 # JacksChessProject
-chess analytics project
+Chess Analytics Project
 
 
 Chosen Colour palettes:
