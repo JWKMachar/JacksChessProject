@@ -7,7 +7,9 @@ Chess Analytics Project
 # Backend:
 
 
-# Database: *Undecided*
+# Database: Neo4j Aura 
+
+- Database Test creation taking place in Juypter Notebook going relatively successfully atm.
 
 
 # MISC
