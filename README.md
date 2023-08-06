@@ -4,7 +4,7 @@ Chess Analytics Project
 # Frontend: React App
 
 
-# Backend: Django API
+# Backend:
 
 
 # Database: *Undecided*
